@@ -14,15 +14,20 @@
   <!-- Stoplight yellow -->
   <circle r="1" cx="21" cy="20" fill="#28c840" />
 
-  <!-- Menu bar text -->
-  <text font-family="arial" x="50%" y="20" dominant-baseline="middle" text-anchor="middle" fill="black" font-size="2">spiritualhost - github</text>
+  <!--- Terminal Prompt -->
+    <text x="15" y="30" font-size="3" font-family="arial" fill="white">spiritualhost@github ~ %</text>
 
+
+  <!-- Menu bar text -->
+  <text font-family="arial" x="50%" y="20" dominant-baseline="middle" text-anchor="middle" fill="black" font-size="2">home - zsh - github</text>
+
+    <!-- Scrolling Text -->
     <path id="path">
-		<animate attributeName="d" from="m15,30 h0" to="m15,30 h1100" dur="10s" begin="0s" repeatCount="indefinite"/>
-	</path>
-	<text font-size="3" font-family="arial" fill="white">
-		<textPath href="#path">Hi, I'm spiritualhost. Working mainly with Rust, C, and Python. Currently developing command line tools.
+        <animate attributeName="d" from="m50,30 h0" to="m50,30 h1100" dur="6s" begin="0s" repeatCount="indefinite"/>
+    </path>
+    <text font-size="3" font-family="arial" fill="white">
+        <textPath href="#path">Hi, I'm spiritualhost. Mainly using Bash, Python, and Rust. Currently writing command line tools.
     </textPath>
-	</text>
+    </text>
 
 </svg>
