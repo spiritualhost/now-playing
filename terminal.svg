@@ -1,0 +1,20 @@
+<svg width="200" height="120">
+  <!-- The main rectangle -->
+  <rect x="10" y="20" width="180" height="80" fill="black" stroke="none" />
+
+  <!-- The top border line -->
+  <line x1="10" y1="20" x2="190" y2="20" rx="20" ry="20" stroke="white" stroke-width="3" />
+
+  <!-- Stoplight red -->
+  <circle r="1" cx="13" cy="20" fill="red" />
+
+  <!-- Stoplight yellow -->
+  <circle r="1" cx="17" cy="20" fill="yellow" />
+  
+  <!-- Stoplight yellow -->
+  <circle r="1" cx="21" cy="20" fill="green" />
+
+  <!-- Menu bar text -->
+  <text x="50%" y="20" dominant-baseline="middle" text-anchor="middle" fill="black" font-size="2">spiritualhost - github</text>
+
+</svg>
