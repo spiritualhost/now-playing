@@ -1,0 +1,11 @@
+spiritualhost@github ~ % cowsay -W 60 "Hi, I'm spiritualhost. Mainly using Bash, Python, and R
+ust. Currently writing CLI tools."
+ ______________________________________________________________
+/ Hi, I'm spiritualhost. Mainly using Bash, Python, and Rust.  \
+\ Currently writing CLI tools.                                 /
+ --------------------------------------------------------------
+        \   ^__^
+         \  (oo)\_______
+            (__)\       )\/\
+                ||----w |
+                ||     ||

@@ -21,13 +21,33 @@
   <!-- Menu bar text -->
   <text font-family="arial" x="50%" y="20" dominant-baseline="middle" text-anchor="middle" fill="black" font-size="2">home - zsh - github</text>
 
-    <!-- Scrolling Text -->
-    <path id="path">
-        <animate attributeName="d" from="m50,30 h0" to="m50,30 h1100" dur="6s" begin="0s" repeatCount="indefinite"/>
-    </path>
-    <text font-size="3" font-family="arial" fill="white">
-        <textPath href="#path">Hi, I'm spiritualhost. Mainly using Bash, Python, and Rust. Currently writing command line tools.
-    </textPath>
-    </text>
+  <!-- Scrolling Text -->
+  <path id="path">
+    <animate attributeName="d" from="m50,30 h0" to="m50,30 h1100" dur="6s" begin="0s" repeatCount="indefinite"/>
+  </path>
+  <text font-size="3" font-family="arial" fill="white">
+    <textPath href="#path">cowsay -W 60 "Hi, I'm spiritualhost. Mainly using Bash, Python, and Rust. Currently writing CLI tools."</textPath>
+  </text>
 
+  
+<!-- Cowsay Cow -->
+  <path id="p1"><animate attributeName="d" from="m15,40 h0" to="m15,40 h1100" dur="6s" begin="0s" repeatCount="indefinite"/></path>
+  <path id="p2"><animate attributeName="d" from="m15,44 h0" to="m15,44 h1100" dur="6s" begin="0s" repeatCount="indefinite"/></path>
+  <path id="p3"><animate attributeName="d" from="m15,48 h0" to="m15,48 h1100" dur="6s" begin="0s" repeatCount="indefinite"/></path>
+  <path id="p4"><animate attributeName="d" from="m15,52 h0" to="m15,52 h1100" dur="6s" begin="0s" repeatCount="indefinite"/></path>
+  <path id="p5"><animate attributeName="d" from="m15,56 h0" to="m15,56 h1100" dur="6s" begin="0s" repeatCount="indefinite"/></path>
+  <path id="p6"><animate attributeName="d" from="m15,60 h0" to="m15,60 h1100" dur="6s" begin="0s" repeatCount="indefinite"/></path>
+  <path id="p7"><animate attributeName="d" from="m15,64 h0" to="m15,64 h1100" dur="6s" begin="0s" repeatCount="indefinite"/></path>
+  <path id="p8"><animate attributeName="d" from="m15,68 h0" to="m15,68 h1100" dur="6s" begin="0s" repeatCount="indefinite"/></path>
+  <path id="p9"><animate attributeName="d" from="m15,72 h0" to="m15,72 h1100" dur="6s" begin="0s" repeatCount="indefinite"/></path>
+
+<text font-size="3" font-family="monospace" fill="white" xml:space="preserve"><textPath href="#p1"> ______________________________________________________________</textPath></text>
+<text font-size="3" font-family="monospace" fill="white" xml:space="preserve"><textPath href="#p2">/ Hi, I'm spiritualhost. Mainly using Bash, Python, and Rust.  \</textPath></text>
+<text font-size="3" font-family="monospace" fill="white" xml:space="preserve"><textPath href="#p3">\ Currently writing CLI tools.                                 /</textPath></text>
+<text font-size="3" font-family="monospace" fill="white" xml:space="preserve"><textPath href="#p4"> --------------------------------------------------------------</textPath></text>
+<text font-size="3" font-family="monospace" fill="white" xml:space="preserve"><textPath href="#p5">        \   ^__^</textPath></text>
+<text font-size="3" font-family="monospace" fill="white" xml:space="preserve"><textPath href="#p6">         \  (oo)\_______</textPath></text>
+<text font-size="3" font-family="monospace" fill="white" xml:space="preserve"><textPath href="#p7">            (__)\       )\/\</textPath></text>
+<text font-size="3" font-family="monospace" fill="white" xml:space="preserve"><textPath href="#p8">                ||----w |</textPath></text>
+<text font-size="3" font-family="monospace" fill="white" xml:space="preserve"><textPath href="#p9">                ||     ||</textPath></text>
 </svg>
