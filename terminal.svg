@@ -29,7 +29,7 @@
     dur="10s" begin="0s" repeatCount="indefinite"/>
 </path>
 <text font-size="3" font-family="arial" fill="white">
-  <textPath href="#path">cowsay -W 60 "Hi, I'm spiritualhost. Mainly using Bash, Python, and Shell. Currently writing CLI tools."</textPath>
+  <textPath href="#path">cowsay -W 60 "Hi, I'm spiritualhost. Mainly using Bash, Python, and Rust. Currently writing CLI tools."</textPath>
 </text>
 
 <!-- Cowsay Cow -->
@@ -46,7 +46,7 @@
 
 
 <text font-size="3" font-family="monospace" fill="white" xml:space="preserve"><textPath href="#p1"> ______________________________________________________________</textPath></text>
-<text font-size="3" font-family="monospace" fill="white" xml:space="preserve"><textPath href="#p2">/ Hi, I'm spiritualhost. Mainly using Bash, Python, and Shell.  \</textPath></text>
+<text font-size="3" font-family="monospace" fill="white" xml:space="preserve"><textPath href="#p2">/ Hi, I'm spiritualhost. Mainly using Bash, Python, and Rust.   \</textPath></text>
 <text font-size="3" font-family="monospace" fill="white" xml:space="preserve"><textPath href="#p3">\ Currently writing CLI tools.                                  /</textPath></text>
 <text font-size="3" font-family="monospace" fill="white" xml:space="preserve"><textPath href="#p4"> --------------------------------------------------------------</textPath></text>
 <text font-size="3" font-family="monospace" fill="white" xml:space="preserve"><textPath href="#p5">        \   ^__^</textPath></text>
